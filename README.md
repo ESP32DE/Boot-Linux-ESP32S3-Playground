@@ -1,7 +1,7 @@
 # Boot-Linux-ESP32S3-Playground
 This is a playground for the [Boot Linux on ESP32-S3](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3) which was done by the Legend: [jcmvbkbc](https://github.com/jcmvbkbc) 
 
-used hardware in this case: ESP32-S3-N8R8 DevKitC-1 from Espressif ( Octal-pSRAM ) 
+used hardware in this case: ESP32-S3-N8R8 DevKitC-1 from [Espressif](http://espressif.eu) ( Octal-pSRAM ) 
 
 <pre>Build:Mar 27 2021
 rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
