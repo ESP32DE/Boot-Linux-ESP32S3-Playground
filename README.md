@@ -1,7 +1,7 @@
 # Boot-Linux-ESP32S3-Playground
 This is a playground for the [Boot Linux on ESP32-S3](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3) which was done by the Legend: [jcmvbkbc](https://github.com/jcmvbkbc) 
 
-Example kernel and rootfs images built from the above sources as well as a [toolchain archive](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3)
+Example kernel and rootfs images built from the above [wiki sources](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3) as well as a [toolchain archive](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3)
 
 used hardware in this case: ESP32-S3-N8R8 DevKitC-1 from [Espressif](http://espressif.eu) ( Octal-pSRAM ) 
 
