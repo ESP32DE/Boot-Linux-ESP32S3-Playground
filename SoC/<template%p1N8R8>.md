@@ -1,5 +1,5 @@
 # ESP32-S3-<template%p1N8R8> 
-( in meanwhile you see here a customized block diagram for several reasons )   
+( in meanwhile you see here a customized block diagram for several reasons ** )   
 
 ESP32-S3-<template%p1N8R8> is a low-power MCU-based SoC that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE).
 ESP32-S3-<template%p1N8R8> has a complete Wi-Fi subsystem and a Bluetooth LE subsystem, State-of-the-art power and RF performance.
@@ -46,3 +46,7 @@ Block Diagram:
 - Extended temperature range: -40 to 65 °C
 
 
+
+
+
+** The template is used for the various ESP32-S3 SoCs. and will be updated individually after the official announcement.
