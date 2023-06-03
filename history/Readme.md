@@ -1,5 +1,9 @@
 to do: upload
 
+# 03. June 2023
+liosti get it's own partition -
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/304fb8a4-de13-4fa6-a811-30fc3522f310)
 
 
 
