@@ -1,5 +1,12 @@
 to do: upload
 
+# 04. June 2023
+mtd tools support -
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/847e8768-57ef-48ae-acf6-928402b41be8)
+
+
+
 # 03. June 2023
 liosti get it's own partition -
 
