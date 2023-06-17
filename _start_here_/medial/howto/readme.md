@@ -397,14 +397,9 @@ you will be asked for the sudo password
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/fd19dd3f-d20c-46f0-8766-70d580047ca1)
 
+restart
 
-**//**
-
-
-
-
-**//**
-you are ready for the toolchain, for few things we need to do updates and install developer tools which is need for the builds.
+you are ready to install the toolchain, for few things we need to do updates and install developer tools which is need for the builds.
 but for now you are good in this part.
 
 Note: Allways be sure you did mount your drive if you want work with this.
@@ -412,19 +407,44 @@ Note: Allways be sure you did mount your drive if you want work with this.
 ---
 ---
 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/696554df-4f68-4732-b0c2-66d98865d7d6)
+
+---
+---
+login, mount your toolchain drive, open the **s3linux** folder and open it in the terminal
+
+we start from here and we going step by step to build and install the toolchain, buildroot
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6e614fd8-3c80-42e4-8a8e-9f97e92be037)
+
 
 # Build toolchain dynconfig library and export XTENSA_GNU_CONFIG for use by the toolchain
 
 [Info/Issues Step 1](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/issues/1)
 
+// to do: install all this tools
+// sudo apt install git,....  
+
 ( picture follows ) 
 
-![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/696554df-4f68-4732-b0c2-66d98865d7d6)
+git clone https://github.com/jcmvbkbc/xtensa-dynconfig -b original
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e37ed9c6-1fc2-4433-bf34-ef976c5b1dc4)
+
+git clone https://github.com/jcmvbkbc/config-esp32s3 esp32s3
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/fc581db3-076a-4da4-be9e-d160bfb5d961)
+
+make -C xtensa-dynconfig ORIG=1 CONF_DIR=`pwd` esp32s3.so
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/883999ac-e81f-4ef2-8546-863732f4fd2c)
+
+export XTENSA_GNU_CONFIG=`pwd`/xtensa-dynconfig/esp32s3.so
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/1f81141f-9c61-4622-afa7-91dea6cdb82d)
 
 
-
-
-
+Step 1 - done - 
 
 
 # Build the toolchain
