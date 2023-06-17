@@ -496,6 +496,9 @@ CT_PREFIX=``pwd``/builds nice ./ct-ng build
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a9470239-3732-418f-becc-adb153165130)
 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/8dda01af-f1eb-4614-9f82-7d9885ad33d1)
+
+
 
 ---
 
