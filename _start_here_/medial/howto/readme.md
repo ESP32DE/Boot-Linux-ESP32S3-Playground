@@ -367,13 +367,45 @@ Note: Allways be sure you did mount your drive if you want work with this.
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/696554df-4f68-4732-b0c2-66d98865d7d6)
 
+open now a console with STRG + ALT + F3 , 
+
+login with **root** and your password 
+
+add the user **liosti** to sudo group, 
+
+exit this console window with **exit**, the user **liosti** now is in the **sudo** group
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a1ebcf5b-a5ba-43e8-b10d-495a26348f48)
+
+switch back to your desktop with STRG + ALT + F2
+
+for refresh this, restart, re login with your user **liosti** and your password
+
+// to do: picture restart 
+
 mount our second harddrive for the playground/toolchain
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6e448104-b333-4077-ae1a-9a99db73f608)
 
-open your terminal from the favorities and maximize the terminal window
+right click in the window and create the folder **s3linux**
 
-![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/83fc5cd3-e5b4-4281-b74c-c4e1ab3609e4)
+// to do: picture create folder s3linux
+
+right click again in the window and choose **open in terminal**
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/3086af79-ac94-4a13-afa5-17dbb3ddb1ed)
+
+we are now in the playground directory, 
+
+updates the package sources list 
+to get the latest list of available packages 
+in the repositories
+
+`sudo apt update`
+
+you will be asked for the sudo password
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/5ab47be7-546b-4a32-8bec-d41065900c24)
 
 
 
