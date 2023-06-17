@@ -487,11 +487,10 @@ CET 6:00 PM - CET 6:00 AM
 
 // to do: picture upload
 
-![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a72063b0-595e-4969-9c43-07f2738441d3)
-
 
 CT_PREFIX=``pwd``/builds nice ./ct-ng build
 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/72084809-e824-40e4-b3b5-d6aee9154113)
 
 ---
 
