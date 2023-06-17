@@ -365,13 +365,23 @@ Note: Allways be sure you did mount your drive if you want work with this.
 
 ( picture follows ) 
 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/696554df-4f68-4732-b0c2-66d98865d7d6)
+
+mount our second harddrive for the playground/toolchain
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6e448104-b333-4077-ae1a-9a99db73f608)
+
+open your terminal from the favorities and maximize the terminal window
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/83fc5cd3-e5b4-4281-b74c-c4e1ab3609e4)
+
+
 
 # Build the toolchain
 - Using crosstool-NG
 
 [Info/Issues Step 2](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/issues/2)
 
-![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/696554df-4f68-4732-b0c2-66d98865d7d6)
 
 
 
