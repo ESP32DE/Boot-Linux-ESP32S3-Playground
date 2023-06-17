@@ -500,6 +500,11 @@ CT_PREFIX=``pwd``/builds nice ./ct-ng build
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/381c0fdb-54d0-4854-b348-9d50a549dad2)
 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/00194f41-1e71-4dfb-9aab-83d228335b60)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/03f6d3e5-b7f5-4d03-be06-bb1cacebf770)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/cb36a257-a1d7-4c62-a52b-85d938d934dd)
 
 ---
 
