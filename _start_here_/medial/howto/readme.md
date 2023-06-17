@@ -302,7 +302,58 @@ ok for the first time.
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/bc7e4634-19bd-4f28-a7b3-fd0f2d9d7f32)
 
 
+# Mount your extra HD for the playground/toolchain 
 
+- click in desktop left the harddisk symbol / right click for submenu to mount/unmount
+- fill in your root password
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/308e4a7c-abb3-4342-89cd-bd4e3f13db7d)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/fab896ac-ada6-4bb6-a60c-7a6443f49406)
+
+- check in files your drives
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/930bf6ef-3390-4bae-8880-7de60860bcea)
+
+ready :)
+
+
+we setup terminal to the favorities, close the file window and click on the application menu 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/f8c4242e-436a-4e80-ac70-6d460b5bd52b)
+
+- right click on terminal and add it to favorites
+ 
+ ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/fafdde3c-47fe-4792-86f6-94c3bcb4269f)
+
+- now your terminal app is on the favorities menu  - don't open it - it will not work on freshen 22.04 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e7490c90-a121-444c-96d3-281f0755340e)
+
+- now setup your language in the settings, go to show application menu and open settings - then change your region/language and restart
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/3802736e-0b70-422e-a5e4-57f0db1f10dd)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/35aa1d10-08fc-4f7d-825b-25efb50e5ae9)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e001e508-e27c-4c0e-9757-443e26655c2b)
+
+you must confirm the logout 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/82a290bd-546b-4d4b-9a48-1abbbad0dae0)
+
+after the restart and login, your terminal is ready to run, click on your favorities the terminal symbol
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/fbe74359-ef1a-4369-9dbb-9fb15f871105)
+
+we check now the second Harddrive, please press / right click  on the Disk Symbol ( SSD if you use SSD or your choice Symbol ) and mount it
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/635117a4-6d74-4b45-9851-c0c8487c39d4)
+
+you are ready for the toolchain, for few things we need to do updates and install developer tools which is need for the builds.
+but for now you are good in this part.
+
+Note: Allways be sure you did mount your drive if you want work with this.
 
 
 # Build toolchain dynconfig library and export XTENSA_GNU_CONFIG for use by the toolchain
