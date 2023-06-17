@@ -1,5 +1,9 @@
-# This is a preparation for the installation assistance on the weekend of 17 and 18 June 2023. Please don't post yet
-This page is still being edited / typos /  not finished yet
+# This is a preparation for the installation assistance on the weekend of 17 and 18 June 2023. 
+
+CT 6:00 PM 17. June-CT 6:00 AM 18. June
+
+This page is still being edited / typos / for questions and answers, it will be expanded
+
 
 hi folks,
 
