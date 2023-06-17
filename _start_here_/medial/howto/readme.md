@@ -198,13 +198,111 @@ ok for the first time.
 
 # First power on & install Ubuntu 22.04 LTS ( in the VM VirtualBox ) 
 
-1. Run your VM now by doubleclick and this will boot from Install ISO 
+1. Run your VM now by doubleclick and this will boot from Install ISO and shows you the bootloader menu
+ - choice install and press enter and watch the full auto install mode which you did setup in the VM **WoWZa**
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/54c51601-9ba2-440b-b241-64f517d75d7d)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/4b84b6db-d940-4a8b-95f0-d37d80bf1a1b)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/505b4288-d386-4739-b9fb-2b0dbe606948)
+
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/c9648755-f1fc-4b0d-9ed2-0a3c4cd10e79)
+
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/7cef422d-ece3-418a-9b6d-e2ac4ce2101b)
+
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/de6e328f-ebed-4c50-989a-57d672d4a319)
+
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/da22ef70-7b25-419f-a7a5-cd1efd427cc9)
+
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/2720afd5-7ecb-473d-aff0-d3a023970f28)
+
+( be sure you are connected with your HOST - so install can run all for you also downloads ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/121603cc-2d5b-4a3a-ad02-09367ccb4350)
+
+( after install ubuntu will reboot by self ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/203722e3-51b9-408d-8ce3-db368d7eec89)
+
+( 100 h later ( just kidding )   your VM is waiting  for your login - use the login data you did in the setup guest ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a92d84ac-37d3-44d5-be79-00dd658ce689)
+
+( skip this ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/aa7a7324-cf18-4b60-9f75-1ea0fbb4b5a2)
+
+( press next ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/85fbb9f3-8556-4f39-8b5c-f9b77fcaf48a)
+
+( fill out like you want and press next) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/72bc30b1-276a-4c66-aee9-2c2b99023d30)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/769f73c9-3daa-40f6-a6b3-8bbaf627e63d)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/82270fd9-0307-43f5-a6b9-307c6f9a54a6)
+
+( install is ready - press done ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/3defeb17-4d44-4dd2-a2a7-8fed36a25492)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/4f768c8f-016f-45bd-867a-f4b39e94a4d5)
+
+
+2. After install check/setup the extra partition if you want use it for the toolchain / or skip this
+
+- press the left point menu, select utilities, choice disks
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/5e2cc7c1-b921-4739-9d27-2d0d27549fd5)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/ba9dc26a-d138-4c82-9e6d-2a6693144d95)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/8457407a-ea61-4b6b-baff-db913a4cd722)
+
+- you see now your 2 harddisk, press on the 1. harddisk, check it, press on the 2. harddisk and check
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/dae57a52-84a3-407f-a261-a6ebde0843da)
+
+( Ubuntu Harddisk ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/f4aa9207-fde5-4a4c-8c72-77e1e385d8cf)
+
+
+( xtensa-esp32s3-linux-uclibcfdpic harddisk will be your toolchain later - we must create a partition/format this )
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/2284634a-50d3-46c3-bf44-f48910fd9d78)
+
+
+( press on the extra harddisk (1) , press additional partition options (2) , press format partition (3) )
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/31ccc85e-8956-46a1-9bdb-e5262be606ef)
+
+( name your volume and next ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/ef0a3902-624e-4d61-b5dc-06daaf88b710)
+
+( check it again that you choose the empty harddisk and not the ubuntu system harddisk . all data on this will be lost after pressing format ! ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/3ddacf78-1415-4f71-8f0a-992746e3b711)
+
+( enter your password which you set in the setup ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/929bcf9f-ef9b-4126-a5b1-7a535ecf90b9)
+
+( your extra HD is formated - close the utilities window )
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/bc7e4634-19bd-4f28-a7b3-fd0f2d9d7f32)
 
 
 
-
-3. Install Ubuntu to your first drive
-4. After install setup the extra partition if you want use it for the toolchain 
 
 
 # Build toolchain dynconfig library and export XTENSA_GNU_CONFIG for use by the toolchain
