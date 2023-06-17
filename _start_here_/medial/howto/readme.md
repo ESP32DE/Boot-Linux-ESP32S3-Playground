@@ -633,4 +633,231 @@ rootfs-cramfs = root/userspace
 
 [Info/Issues Step 4](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/issues/4)
 
-( picture follows )
+( more picture follows )
+
+this is different to the how to from wiki.
+i prefer to install this in the home and create a folder for the git clone example ~/s3linuxidf
+does no matter what you do - you can do this or that - i posted this 2 examples for the git clone
+if you do this also on the second drive, don't care, you can do this. i show the way on ~/s3linuxidf
+
+
+$ git clone https://github.com/jcmvbkbc/esp-idf -b linux-5.0.1
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/f1af2432-3b97-4497-b669-596b95901343)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/9fab1748-eeaa-48f7-b7a9-856f0bf51339)
+
+
+( ~/s3linuxidf ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/20f09023-2b4f-434f-9777-612365b42464)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/484e8e6f-f8cd-48fd-97d7-c211a6b9b6ee)
+
+
+`pushd esp-idf`
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/edd25bcd-4cdf-4c6b-b75e-8301e16dfeb6)
+
+note in the wiki is export - you need first install if you fresh do an install
+only for showing you what's happen if you did no install before
+
+`. export.sh`
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/73df9414-9333-4a90-9dda-d5df6d9b4108)
+
+
+so please be sure you install first all tools which are need by the ESP-IDF from espressif
+simple kickit with 
+
+`./install.sh` ( not with install.sh ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/cf41bac3-3da3-4119-a8dc-57bf72318bcf)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/98a177c8-e462-478c-9b6a-5f5907e300f1)
+
+
+if you get info, that there are few things missing like this **python3.10-venv** 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/c6b7fcf1-62ab-4a2b-a074-cb9d42978e91)
+
+simple install it: **apt install python3.10-venv** you need to run it with **sudo apt install python3.10-venv** 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/915c6c14-6fec-4859-8265-7ec8e08a7ba2)
+
+and do a **./install.sh** again
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/d5ab519c-ff69-4583-b0f9-7bee4b0d76b2)
+
+
+perfect. now you can run 
+
+**. ./export.sh**
+
+like you know this from ESP-IDF, it's the ESP-IDF - just for Linux Example :)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/8f258766-75a7-4fb2-9a1a-d1fac7452309)
+
+
+# Now - if you did not, you need soon your ESP32-S3 cause we go now final 
+
+- setup - compile - flash
+
+**setup**
+
+`cd examples/get-started/linux_boot`
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/f0bc60b7-f5de-4309-ba98-e7b41cdf1923)
+
+set your target first
+
+`idf.py set-target esp32s3`
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/eeb64333-44e5-4da6-a759-981d4a75f673)
+
+
+cmake does not exist - so you see here this problem, let us solve this here by install cmake / check it does it be on the path
+and i wil add this **important** to the **must_do_list** to do before we start, so you/other not run in this error 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/d5e68fd5-670c-4667-8707-4b45634c6280)
+
+
+check it out 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/965363b7-1771-4ab7-bf36-c65eb0cf7664)
+
+we install here with
+
+**sudo apt install cmake**
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/5a06dae1-84a8-4e18-8025-d276be796032)
+
+
+check it shortly and if all ok, we set the target **esp32s3**
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/ddd2f671-2f56-4015-afc1-8f3e2b462fe1)
+
+`idf.py set-target esp32s3`
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/49453963-66df-4f1e-980e-e7b7e4b2d9ea)
+
+
+from wiki the next step would ne the **build** but we will change first few things and set it in the right direction
+so we're going to deviate a little bit now, btw you should have now your **ESP32-S3** ready by the hand.
+You must know, which PSRAM and which FLASH does your kit/board has.
+we going here for normal and we setup this for an ESP32-S3-N8R8 DevKitC-1
+[what is mean](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/issues/4) with this:
+
+it has 8MB flash as quad
+it has 8MB psram as octal
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/b76cc344-b9ca-48ca-83ac-e538ef0677e5)
+
+here is list:
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/0a12fd1c-ca80-4d6c-8b94-a7811638ce3e)
+
+so we go now **first** in the **menuconfig**
+we set up
+- the right flash
+- check the psram support also 
+- the right psram
+- right clk for psram & flash
+- and few things what allways controll
+
+let's check first, 
+
+`idf.py menuconfig`
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/de170706-2704-4736-9599-aac5421752fa)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/c892d285-74c5-4076-81d9-5dcac53022a9)
+
+
+now load the config for the esp32-s3
+
+info you see from your project, 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/59257461-4963-491b-88d5-94de80b1ce1d)
+
+we load now **sdkconfig.defaults.esp32s3**
+
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/947532cc-a7b6-4e93-a73d-754848d5cefc)
+
+
+( und check flash example ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/393fff58-a4f9-42ee-93d3-574988fa4806)
+
+
+( check partition table ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a8175178-dc70-430b-8800-202bd1ba3b20)
+
+
+( check psram ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e0fa2851-bf41-46ed-8e49-c3dc44cc7f57)
+
+
+after you check your details you exit the menuconfig and it will ask you for save if you changed things.
+say yes if you are comfortable with it. ( note this please because it will not be the right later more ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/f047475e-e11b-46b8-b526-90861cb1574d)
+
+
+we shortly check the partition table
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/2b8d718e-4e6c-4825-8b08-83303df5f42f)
+
+and we build the project...
+
+`idf.py build`
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/be34814d-1e61-448b-ace6-ce46f7095d78)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/bfefa2a4-7630-4394-a21b-c3a711be3341)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/af0c83d4-1f28-44ef-9af2-a0772309454d)
+
+I wanted give you this lesson cause you will never forget it any more. sry :)
+Now again, run menuconfig, load the **sdkconfig.defaults.esp32s3** check all like you did before and save it as **sdkconfig** file
+sry - i do not like this way too. but it is. You see it, when you want load a file, it pops allways the "**sdkconfig**" file.
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e3fc580f-254c-45af-91de-972f9c00a9d5)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/96c44cf5-0c32-45ad-a585-6d8c4c970efa)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/bab16625-4f49-4d91-80f4-7b6b3fd516a8)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/14a61bd2-2748-4261-a119-a6a501ca138a)
+
+on one hand you have hardware sdkconfig file for your board and on other hand you have the sdkconfig file from ESP-IDF.
+you load your properties file and save it as ESP-IDF file. thats the way, i hope espressif will change this one day :)
+
+close the menuconfig ( ESC ) and now buid run the build again
+
+**idf.py build**
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6c70344a-de62-4061-8b8c-ac9fd7793867)
+
+---
+wait :)
+
+more picture comes
+
+- prepair ESP32-S3 Board
+- 
+
+---
+
+to do:
+
+$ idf.py flash
+
+$ popd
+
+$ parttool.py write_partition --partition-name linux  --input build-xtensa-2023.02-fdpic-esp32s3/images/xipImage
+
+$ parttool.py write_partition --partition-name rootfs --input build-xtensa-2023.02-fdpic-esp32s3/images/rootfs.cramfs
