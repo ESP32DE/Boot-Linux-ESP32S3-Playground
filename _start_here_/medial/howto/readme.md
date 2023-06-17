@@ -836,7 +836,7 @@ sry - i do not like this way too. but it is. You see it, when you want load a fi
 on one hand you have hardware sdkconfig file for your board and on other hand you have the sdkconfig file from ESP-IDF.
 you load your properties file and save it as ESP-IDF file. thats the way, i hope espressif will change this one day :)
 
-close the menuconfig ( ESC ) and now buid run the build again
+close the menuconfig ( ESC ) and now run the build again
 
 **idf.py build**
 
