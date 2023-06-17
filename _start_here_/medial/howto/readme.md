@@ -452,6 +452,28 @@ Step 1 - done -
 
 [Info/Issues Step 2](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/issues/2)
 
+git clone https://github.com/jcmvbkbc/crosstool-NG.git -b xtensa-fdpic
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a4b3391e-939f-4875-9ee1-b2b152f03136)
+
+pushd crosstool-NG
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/babdc614-252c-4123-86c5-08a64779a0f1)
+
+./bootstrap && ./configure --enable-local && make
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/9ed9a037-ad70-42e2-819a-1de76e96b1d8)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/986f8637-7fe1-4db1-b381-69bbc63b5f1b)
+
+
+./ct-ng xtensa-esp32s3-linux-uclibcfdpic
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/0894a5a4-b47e-4e0c-bf96-66a6a976fd01)
+
+
+
+
 
 
 
