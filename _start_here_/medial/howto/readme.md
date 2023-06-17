@@ -558,16 +558,75 @@ $ nice make -C buildroot O=`pwd`/build-xtensa-2023.02-fdpic-esp32s3 menuconfig
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a5bc2fa5-208c-4979-b97b-bdc2288a39a5)
 
 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/d5a96623-1b6c-4f0b-afac-ef93dc6eda96)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/4fcb82a4-6202-4d64-b99d-6f656783e228)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e33d95fe-062c-4768-9b38-4d2865b1914a)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e46e9915-99dc-4872-b977-760524417125)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/5122c9f5-a80c-4aed-940c-1f72b3abc8ae)
 
 
+optional you can set the welcome message, password
 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/394edcb3-2a69-4d96-b094-31d973584b83)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/571b643f-3933-4f02-a3f8-03c6459b69dd)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/ee728c90-5f92-4d65-8d1a-f1d622846941)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/f50c898b-5333-41e4-a5f0-d69fa272c48a)
+
+if you have done all your basicly hello world settings , click exit and save the config. you can later setup more and more for your kernel and rootfs.
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/b9c26af2-6e1e-4296-bd20-c3a726054da2)
+
+
+...and build it - 
 
 $ nice make -C buildroot O=`pwd`/build-xtensa-2023.02-fdpic-esp32s3
 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/90140e3c-da53-43d3-8d3b-5b2beeea8aac)
 
 
+overloaded or unreachable at the moment can happen, 
 
-( picture follows )
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/9920fa39-6f3f-4223-a770-16841fbfd093)
+
+.. reconnect moretimes .. 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/d78c6375-148e-473e-b7c9-8d437ab01edb)
+
+.. and good ..
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/7339d9ec-6cc3-4856-9f80-8b7e2a4abb20)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/eea9a998-837c-4cf5-86f0-98f4e402d823)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/0d90389a-d447-4835-925d-4633288bbfb2)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/86f09dd4-2e32-491b-a192-fc2abbaa2409)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/d5f3d8fb-62f7-4253-9738-c90f63d6ce52)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6943bd9f-0f58-4c78-95a5-e6ec275feeff)
+
+# Note:
+---
+in this case your images are in the path 
+
+/media/liosti/playground/s3linux/build-xtensa-2023.02-fdpic-esp32s3/images
+
+note this path which you use, you will this need later for flash the images to the adr of partition table from ESP-IDF linux project
+
+xipImage = linux kernel
+
+rootfs-cramfs = root/userspace
+
+---
 
 
 # Build and flash the bootloader, flash kernel and rootfs images
