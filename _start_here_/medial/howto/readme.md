@@ -506,8 +506,12 @@ do not forget
 `popd`
 
 
-your toolchain is ready :)
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/563001b2-4265-42a5-b92d-709319c7d64c)
 
+
+
+
+# your toolchain is ready :)
 
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/00194f41-1e71-4dfb-9aab-83d228335b60)
@@ -520,12 +524,48 @@ your toolchain is ready :)
 
 
 
-
-( picture follows )
-
 # Build the rootfs and kernel image
 
 [Info/Issues Step 3](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/issues/3)
+
+be sure you been in the **s3linux** base folder / or what you did set/name as base from install begin
+
+here in this example it is **/media/liosti/playground/s3linux**
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/969c851f-ae75-41d0-9ff6-5a4f06e23e0a)
+
+
+$ git clone https://github.com/jcmvbkbc/buildroot -b xtensa-2023.02-fdpic
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6a4de780-b91d-475c-98f2-3a74f6ca1427)
+
+
+
+$ nice make -C buildroot O=`pwd`/build-xtensa-2023.02-fdpic-esp32s3 esp32s3_defconfig
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/7a68d5eb-acf1-42cd-99f9-05183112a501)
+
+
+
+
+# adjust external toolchain location to the one built above
+
+$ nice make -C buildroot O=`pwd`/build-xtensa-2023.02-fdpic-esp32s3 menuconfig 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/2efc07d5-f01c-41da-9ad8-ff2c0f5e38f4)
+
+# menuconfig 
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a5bc2fa5-208c-4979-b97b-bdc2288a39a5)
+
+
+
+
+
+
+$ nice make -C buildroot O=`pwd`/build-xtensa-2023.02-fdpic-esp32s3
+
+
+
 
 ( picture follows )
 
