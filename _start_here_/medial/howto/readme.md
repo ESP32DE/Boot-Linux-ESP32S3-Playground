@@ -355,6 +355,9 @@ but for now you are good in this part.
 
 Note: Allways be sure you did mount your drive if you want work with this.
 
+---
+---
+
 
 # Build toolchain dynconfig library and export XTENSA_GNU_CONFIG for use by the toolchain
 
@@ -367,6 +370,10 @@ Note: Allways be sure you did mount your drive if you want work with this.
 - Using crosstool-NG
 
 [Info/Issues Step 2](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/issues/2)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/696554df-4f68-4732-b0c2-66d98865d7d6)
+
+
 
 ( picture follows )
 
