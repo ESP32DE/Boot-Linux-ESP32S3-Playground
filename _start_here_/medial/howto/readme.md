@@ -471,16 +471,27 @@ pushd crosstool-NG
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/0894a5a4-b47e-4e0c-bf96-66a6a976fd01)
 
+--- 
 **WAIT**
 
+live-task 
+
+17. June - 18. June 2023
+
+CET 6:00 PM - CET 6:00 AM
+
 ---
 
 ---
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/9c00d5bc-66a9-4b13-98c7-772bd6bd7337)
+
+// to do: picture upload
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a72063b0-595e-4969-9c43-07f2738441d3)
 
 
 CT_PREFIX=``pwd``/builds nice ./ct-ng build
 
-// to do: picture upload
 
 ---
 
