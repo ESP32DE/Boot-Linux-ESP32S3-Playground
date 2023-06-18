@@ -865,3 +865,15 @@ $ popd
 $ parttool.py write_partition --partition-name linux  --input build-xtensa-2023.02-fdpic-esp32s3/images/xipImage
 
 $ parttool.py write_partition --partition-name rootfs --input build-xtensa-2023.02-fdpic-esp32s3/images/rootfs.cramfs
+
+
+to do: 
+
+more picture comes
+
+# putty
+
+we install putty with **sudo apt install putty**
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/3b3db752-574c-42a8-b8d8-3cb53ba66969)
+
