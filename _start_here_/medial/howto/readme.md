@@ -877,3 +877,15 @@ we install putty with **sudo apt install putty**
 
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/3b3db752-574c-42a8-b8d8-3cb53ba66969)
 
+
+we add the user **liosti** to the tty group, you must relogin for take the effect - Logout/Login 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/ad28c755-31d6-4b06-88a8-d96738bdd730)
+
+if we add the user **liosti** to the dialout group, you must also relogin for take th effect - Logout/login
+
+**sudo usermod -a -G dialout your-username**
+
+
+
+
