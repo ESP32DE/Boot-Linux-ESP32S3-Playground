@@ -887,5 +887,8 @@ if we add the user **liosti** to the dialout group, you must also relogin for ta
 **sudo usermod -a -G dialout your-username**
 
 
+we run **putty** for a test ( note i did setup few boards in putty allright - we do this with the first run after flashing linux app ) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/1f0a6728-3e33-4f64-8f59-f7211c011583)
 
 
