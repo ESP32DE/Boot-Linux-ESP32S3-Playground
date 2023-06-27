@@ -1,0 +1,1 @@
+- ST7789  320 x 240  SPI  <2.8 inch ST7789 SPI Interface IPS LCD>
