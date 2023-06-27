@@ -1,0 +1,1 @@
+- SX1262 LoRa Transceiver  433/868/915Mhz
