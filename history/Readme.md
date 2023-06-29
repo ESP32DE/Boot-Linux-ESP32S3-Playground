@@ -1,5 +1,18 @@
 to do: upload
 
+# 29. June 2023
+
+micropython [mp](https://github.com/micropython/micropython) native port support [done](https://twitter.com/eMbeddedHome/status/1674402559400845312), 
+ - test phase begin
+ - fine-tuning of all functions
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/9634c358-5a23-46df-bb42-096ed8f8e90b)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6011d036-86c9-4bfb-811f-ed87ae808aba)
+
+
+
+
 # 04. June 2023
 mtd tools support -
 
