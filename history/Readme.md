@@ -1,5 +1,15 @@
 to do: upload
 
+# 4. July 2023
+
+posix support ( NPTL in a testcase ) 
+ - testphase posix successfull
+ - NPTL prepairing
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/afd7af6f-0c06-42ba-a53e-08e4e184d5ab)
+
+
+
 # 29. June 2023
 
 micropython [mp](https://github.com/micropython/micropython) native port support [done](https://twitter.com/eMbeddedHome/status/1674402559400845312), 
