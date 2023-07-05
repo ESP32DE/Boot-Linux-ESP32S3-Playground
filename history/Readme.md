@@ -1,5 +1,19 @@
 to do: upload
 
+# 5. July 2023
+
+testing micropython basics
+ - MICROPY_BANNER_MACHINE
+  - static on Nativ Port
+  - prepaire diverse ATM'S and overlay MICROPY_BANNER_MACHINE by user   
+ - function calls
+ - import hello world lib
+ - more..
+
+   ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/8e60e345-2c17-4f46-bccb-5e01d3946f08)
+
+
+
 # 4. July 2023
 
 posix support ( NPTL in a testcase ) 
