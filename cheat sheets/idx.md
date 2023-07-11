@@ -39,4 +39,63 @@ We use the [esp-hosted](https://github.com/espressif/esp-hosted) repo from espre
       - or
       - we edit the things on the fly on install - we go here for this way and save the edit config files to provide this for other people which want comfortable install way
       - let's do it
-    - 
+
+    # buildroot (fresh)
+   we use again the amazing script from jcmvbkbc
+   - `git clone https://github.com/jcmvbkbc/buildroot -b xtensa-2023.02-fdpic`
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/eaa0c18d-7c58-465e-b37a-b4d9a2e883da)
+   - ** to do: links ** 
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/3705f102-2975-4f39-99db-6f5ad4b9585b)
+   - and we use again the amazing script parts
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/9603a927-5fb5-4afd-b567-a8335ebff670)
+   - we can check all with the menuconfig
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/cfa1cba2-a45c-488e-a354-e434b6ae6a90)
+   - check your setup
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/76030cce-b27d-44e0-839d-4afec8f4485e)
+   - should work ( note can be that we change the name esp32s3wifi back to esp32s3 but for this test we use specific "wifi" config file
+   - now we start the build
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/5d7fa58c-883f-4f16-92fa-ee1b2b10a2a4)
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/e855f3af-4a33-4411-b648-90f56b54b883)
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/b7c4e15c-7141-4b31-952e-a3e042f4ef41)
+   - big moment ..the checkout..
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/b78a1f23-aec4-4e6d-9a07-747a6da9b81c)
+   - .... how cool is that - it's working - just for you! there is no repeat - jump on this train :)
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/94a9098e-749d-45be-bbab-fe081ab132f8)
+   - all here - but we set up "net" later for this first try - we go on linux kernel and rootfs basics that you can do by self
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/262c3421-60e2-4383-a5c4-c29f0708cee3)
+   - ..and...
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/cda33dc6-2c14-444f-8f20-fe5aa52eddc9)
+   - ..done! we check..
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/fe2f8de4-b1b4-4747-b41f-4673d11f6868)
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/612c364e-2b13-49a9-8471-c2c7f762e6a4)
+   - ..your linux and root file system is ready :) how cool is that !
+   - next step
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/be319a4c-4ec6-4483-9a19-5588942a1a1d)
+   - ** to do links **
+   - ..we have again more possibles..and must take the choice:
+   - let me tell you: we can wait until all is same version level and up2date or
+     - we can go today and we use the espressif's amazing [ESP-HOSTED](https://github.com/espressif/esp-hosted)
+     - use the linked ESP-IDF as a component for the network driver - hoo hoo - yes - you read right at this time in July 12 2023 :)
+       - we will use feat ESP-IDF as a componnet in the master ESP-IDF and switch back to V4.4  - how crazy cool is that -
+       - do not share wifi from or to other device - we share the mem on the same ESP32-S3 hardware owns WIFI to him
+       - HOW COOL IS THAT!?"
+       - ** push it to the limit - never stop learning!
+       - short pause here - emotion are high you know - ... partytime mid july - the best ever at least!
+       - ( note this emotion bla bla will edit later - but for now you should know - here we are soooooo on fire to this theme *LoL*
+   - * push *
+     * prepairing steps for the bootloader and network driver setup and hardware - * codemarathon *   
+
+
+
+
+
+
+ 
+
+
+
+   - 
+
+
+
+
