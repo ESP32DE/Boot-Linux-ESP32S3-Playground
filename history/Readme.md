@@ -1,5 +1,12 @@
 to do: upload
 
+# 12. July 2023
+
+... just flashing ... but what ? :)
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6c531a1b-722d-4e46-bc91-e6be6186fa02)
+
+
+
 # 11. July 2023
 
 testing [wifi support](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/blob/main/cheat%20sheets/idx.md#wifi-on-s3-linux---your-wireless-connect)
