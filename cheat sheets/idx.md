@@ -23,4 +23,8 @@ We use the [esp-hosted](https://github.com/espressif/esp-hosted) repo from espre
 # prepair
 
  - initial this step side on git hub
- - 
+ - if not done yet you need to [build your toolchain](https://gist.github.com/jcmvbkbc/316e6da728021c8ff670a24e674a35e6)
+   - autoconf steps
+   - dynconfig steps
+   - toolchain steps
+   - wait for the next step kernel and rootfs, we need config things
