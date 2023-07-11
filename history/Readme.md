@@ -1,5 +1,16 @@
 to do: upload
 
+# 11. July 2023
+
+testing [wifi support](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/blob/main/cheat%20sheets/idx.md#wifi-on-s3-linux---your-wireless-connect)
+ - esp-hosted "network-device"
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/ee862f09-368e-4b19-a306-56b1a261f42c)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/5a4d5807-d0e3-4cc2-a2a4-283cffe1550a)
+
+
+
 # 5. July 2023
 
 testing micropython basics
