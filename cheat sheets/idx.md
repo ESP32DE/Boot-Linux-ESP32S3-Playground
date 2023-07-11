@@ -27,4 +27,6 @@ We use the [esp-hosted](https://github.com/espressif/esp-hosted) repo from espre
    - autoconf steps
    - dynconfig steps
    - toolchain steps
-   - wait for the next step kernel and rootfs, we need config things
+   - ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/02cf94f8-72db-45ca-b080-66241d86b059)
+
+   - waiting for the next step kernel and rootfs, we need config things
