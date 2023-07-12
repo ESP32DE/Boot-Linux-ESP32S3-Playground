@@ -83,7 +83,14 @@ We use the [esp-hosted](https://github.com/espressif/esp-hosted) repo from espre
        - short pause here - emotion are high you know - ... partytime mid july - the best ever at least!
        - ( note this emotion bla bla will edit later - but for now you should know - here we are soooooo on fire to this theme *LoL*
    - * push *
-     * prepairing steps for the bootloader and network driver setup and hardware - * codemarathon *   
+     * prepairing steps for the bootloader and network driver setup and hardware - * codemarathon *
+    
+     # here you are
+
+
+     [catch your wifi for your s3 linux port !](https://gist.github.com/jcmvbkbc/316e6da728021c8ff670a24e674a35e6)
+     
+     [setup your wifi port](http://wiki.osll.ru/doku.php/etc:users:jcmvbkbc:linux-xtensa:esp32s3wifi)
 
 
 
