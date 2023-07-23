@@ -1,8 +1,8 @@
-# ESP32-S3-<template%p1N8R8> 
-( in meanwhile you see here a customized block diagram for several reasons ** )   
+# ESP32-S3-PICO-1 
+ 
 
-ESP32-S3-<template%p1N8R8> is a low-power MCU-based SoC that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE).
-ESP32-S3-<template%p1N8R8> has a complete Wi-Fi subsystem and a Bluetooth LE subsystem, State-of-the-art power and RF performance.
+ESP32-S3-PICO-1 is a low-power MCU-based SoC that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE).
+ESP32-S3-PICO-1 has a complete Wi-Fi subsystem and a Bluetooth LE subsystem, State-of-the-art power and RF performance.
 S3 provides a rich set of peripheral interfaces, and supports ultra-low-powerapplications.
 Different security features allow the device to meet stringent security requirements.
 
@@ -10,7 +10,9 @@ Features:
 
 Block Diagram:
 
-![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/0b7e2a36-53fb-42b2-87ba-f162d2bd3642)
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/369b6e8b-acf0-4721-939a-7f0bd36b69cb)
+
+
 
 
 - Core: 
@@ -42,11 +44,12 @@ Block Diagram:
   - 4096 bit OTP
   - AES, SHA, RSA, ECC, RNG
   - Secure Boot, Flash Encryption, Digital signature, HMAC module
+  - Extended temperature range: -40 to 65 °C
+ 
+  
 
-- Extended temperature range: -40 to 65 °C
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/177e2ce8-8b62-4cfe-a281-852045d0b76f)
 
 
 
 
-
-** The template is used for the various ESP32-S3 SoCs. and will be updated individually after the official announcement.
