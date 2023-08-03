@@ -1,6 +1,12 @@
 to do: upload
 
 
+# 03. Aug 2023
+
+100 stargazers thank you for 100 stars !!!
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/1ca8ff19-2063-4c72-9249-e039b629867f)
+ 
 
 # ESP32-S3-WoWZa-N256R256 
 
