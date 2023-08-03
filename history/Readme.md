@@ -1,5 +1,12 @@
 to do: upload
 
+# 03. Aug 2023
+
+local console runs on wifi ssh server, 2 ssh clients connected per wifi and runs micropython port. is this the world's first micropython server on a MCU? :) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/0b46643b-b6d9-4e3b-ba5f-c57ded59c1b6)
+
+
 # 12. July 2023
 
 ... just flashing ... but what ? :)
