@@ -61,6 +61,12 @@ micropython [mp](https://github.com/micropython/micropython) native port support
 
 
 
+# 05. June 2023
+
+- liosti [get jffs2](https://twitter.com/eMbeddedHome/status/1665575763247001602) V 2.2 NAND RW support ( just a testing )
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/35c3c8ff-4e8e-429c-9552-3e8b8013762c)
+
 
 # 04. June 2023
 mtd tools support -
