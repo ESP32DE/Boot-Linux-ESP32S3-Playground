@@ -1,5 +1,14 @@
 to do: upload
 
+# 08. Aug 2023
+ 
+ - WIP: nommu: do_mmap: translate executable mappings  ( WoWZa! ) 
+ - enable NFS client in config
+ - map PSRAM into the second 16M of the IRAM region
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/ee1964e5-19ca-40d9-a54e-eb4ecf27e1ab)
+
+
 # 03. Aug 2023
 
 local console runs on wifi ssh server, 2 ssh clients connected per wifi and runs micropython port. is this the world's first micropython server on a MCU? :) 
