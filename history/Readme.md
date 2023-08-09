@@ -1,5 +1,21 @@
 to do: upload
 
+# 09. Aug 2023
+  
+  - [lua](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/blob/main/request/lua.md) by an REQ
+    
+    [4mig4](https://twitter.com/4mig4/status/1689283566637572096) requested lua on twitter - so yeah, why not give this a try
+    
+    live-shoot- from 09.Aug 2023 - ( there is a [yt video](https://youtu.be/m8AyipBql_o) also )
+
+    it's working also remote by ssh and on the mounted NFS share
+
+    WoWZa! 
+
+    ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/d5dc3c6b-131e-4eef-951c-5669962b4930)
+
+
+
 # 08. Aug 2023
  
  - WIP: nommu: do_mmap: translate executable mappings  ( WoWZa! ) 
