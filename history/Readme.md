@@ -1,5 +1,30 @@
 to do: upload
 
+# 10. Aug 2023
+- Remote Build by ESP32-S3 SSH Client which runs #jcmvbkbc #esp32s3 #linux #esp32 S3 port #WoWZa!
+- ESP32-S3 runs #jcmvbkbc #esp32s3 #linux #esp32 S3 port which has also wifi and SSH support.
+- on the ESP32-S3 also runs native "posix" micropython and LUA ..
+- we connect from a PC by an SSH Client the ESP32-S3 (150) which runs a SSH Server.
+- the ESP32-S3 is also connected over wifi to the internet
+- we connect on ESP32-S3 ssh client internet timeserver and update local time on ESP32-S3.
+- we connect then cloud and mount the cloud to the ESP32-S3 as a shared folder which has  100GB space .
+- we serve to the cloud developer folder and cat the hi.c file.
+- we connect also a second putty ssh connection to the ESP32-S3 ssh server.
+- then we connect with the second ssh client on ESP32-S3 to the Developer Server (67) and serve to the cloud developer folder.
+- now we crosscompile the hi.c and run on the first ssh client the build
+- we do this moretime and patch also
+- last but not least ESP32-S3 runs binary build micropython from cloud share in the first ESP32-S3 client and also lua from ESP32-S3 userspace  in the second SSH client same time..
+
+WoWZa -> [YOUTUBE #ESP32DE](https://www.youtube.com/watch?v=bnFbuTDlGMY) 
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/8a20fe8c-860b-4ec5-9a59-405ab67e93e7)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/d2a68e8f-a6c0-4fd5-b508-f48a832b02ab)
+
+
+
+ 
+
 # 09. Aug 2023
   
   - [lua](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/blob/main/request/lua.md) by an REQ
