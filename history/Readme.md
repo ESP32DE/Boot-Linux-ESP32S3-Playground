@@ -1,5 +1,18 @@
 to do: upload
 
+# 15. Aug 2023
+
+in da house:
+- 128  Mbit PSRAM
+- 256  Mbit PSRAM
+- 512  Mbit PSRAM
+- 1024 Mbit PSRAM ( in the delivery ) 
+
+we [start with 128 Mbit PSRAM](https://twitter.com/eMbeddedHome/status/1691314140227223552) in the Linux Port and go step up to 1G  
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/76dd6b6b-af96-463d-9a26-e02865743e28)
+
+
 # 10. Aug 2023
 - Remote Build by ESP32-S3 SSH Client which runs #jcmvbkbc #esp32s3 #linux #esp32 S3 port #WoWZa!
 - ESP32-S3 runs #jcmvbkbc #esp32s3 #linux #esp32 S3 port which has also wifi and SSH support.
