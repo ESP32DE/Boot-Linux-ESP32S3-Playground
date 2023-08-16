@@ -1,5 +1,12 @@
 to do: upload
 
+# 16. Aug 2023
+- first "hello-world" steps x-programming
+- left Ubuntu 22.04 || right  S3Linux  same test code :)
+- Next step: find refresh bug
+
+https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/424bdf07-cdff-47e6-a064-6218cbd1620c
+
 # 15. Aug 2023
 
 in da house:
