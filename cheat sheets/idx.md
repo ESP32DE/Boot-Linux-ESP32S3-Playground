@@ -2,7 +2,7 @@
 
 # WIFI on S3 Linux - your wireless connect 
 
-#jcmvbkbc #esp32s3 #linux #esp32 S3 port get wifi step by step 
+#esp32s3 #linux #esp32 S3 port get wifi step by step 
 
 Will it work? Will it connect? Let's this find out 
 
