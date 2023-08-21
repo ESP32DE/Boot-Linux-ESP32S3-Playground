@@ -1,3 +1,12 @@
+
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/0a3bdad9-7ffc-4449-a66d-e7b22f2061bd)
+
+
+
+
+
+
 testing (ESP-IDF) successful
 
 - ESP32-S3-WoWZa-N32R16
