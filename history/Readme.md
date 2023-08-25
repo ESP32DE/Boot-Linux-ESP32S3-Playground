@@ -1,5 +1,16 @@
 to do: upload
 
+# 25. Aug 2023
+
+- build things new and different from scratch
+- [get 16 MB PSRAM working](https://twitter.com/eMbeddedHome/status/1695136051956687323) in the Linux Port for Xtensa MCU ESP32 S3
+- optimize linux kernel for IoT RAM also eMbedded System
+- optimize boot time
+- used engineering modul "ESP32-S3-WoWZa-N32R16"
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/81c834e2-9802-464c-9d09-d8951ff13195)
+
+
 # 16. Aug 2023
 - first "hello-world" steps x-programming
 - left Ubuntu 22.04 || right  S3Linux  same test code :)
