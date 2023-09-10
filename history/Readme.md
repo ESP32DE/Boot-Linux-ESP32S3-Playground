@@ -141,6 +141,23 @@ micropython [mp](https://github.com/micropython/micropython) native port support
 ![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6011d036-86c9-4bfb-811f-ed87ae808aba)
 
 
+# 21. June 2023 - 22. June 2023
+
+USB in da house, Device & Host
+ - USB ACM console
+ - USB Modem 
+ - [second UART](https://twitter.com/eMbeddedHome/status/1671891622467100674) and [M5Stack console](https://twitter.com/eMbeddedHome/status/1671891622467100674)
+ - [probing loading registering](https://twitter.com/eMbeddedHome/status/1671900767869968385)
+ - [add uart how to](https://twitter.com/eMbeddedHome/status/1671903193213595649)
+    
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/50b22a8e-7e21-4e4d-9e66-f7778ce145c4)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/a766765c-a19d-4a3a-b1b6-50636501575c)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/465900a6-d3fa-4643-8981-60d4c9eed357)
+
+![image](https://github.com/ESP32DE/Boot-Linux-ESP32S3-Playground/assets/16070445/6e19df88-2188-4fa7-b4e2-160f5cb2451b)
+
 
 # 05. June 2023
 
