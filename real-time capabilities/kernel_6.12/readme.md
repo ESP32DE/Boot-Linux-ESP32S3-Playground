@@ -1,0 +1,3 @@
+# CONFIG_PREEMPT_RT
+
+
